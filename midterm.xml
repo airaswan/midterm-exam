@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <library-users>
     <user>
-        <picture>profile1.jpg</picture>
+        <picture>https://i.pinimg.com/736x/fc/2b/32/fc2b32e7c26512285d7561619b037472.jpg</picture>
         <name>Juan Dela Cruz</name>
         <course>BSIT</course>
         <year-level>3bg2</year-level>
@@ -9,7 +9,7 @@
         <school-year>2023-2024</school-year>
     </user>
     <user>
-        <picture>profile2.jpg</picture>
+        <picture>https://i.pinimg.com/736x/fc/2b/32/fc2b32e7c26512285d7561619b037472.jpg</picture>
         <name>Maria Santos</name>
         <course>BSCS</course>
         <year-level>2bg1</year-level>
@@ -17,7 +17,7 @@
         <school-year>2023-2024</school-year>
     </user>
     <user>
-        <picture>profile3.jpg</picture>
+        <picture>https://i.pinimg.com/736x/fc/2b/32/fc2b32e7c26512285d7561619b037472.jpg</picture>
         <name>Pedro Gonzales</name>
         <course>BSIT</course>
         <year-level>4bg3</year-level>
@@ -25,7 +25,7 @@
         <school-year>2023-2024</school-year>
     </user>
     <user>
-        <picture>profile4.jpg</picture>
+        <picture>https://i.pinimg.com/736x/fc/2b/32/fc2b32e7c26512285d7561619b037472.jpg</picture>
         <name>Ana Reyes</name>
         <course>BSCS</course>
         <year-level>3bg2</year-level>
@@ -33,7 +33,7 @@
         <school-year>2023-2024</school-year>
     </user>
     <user>
-        <picture>profile5.jpg</picture>
+        <picture>https://i.pinimg.com/736x/fc/2b/32/fc2b32e7c26512285d7561619b037472.jpg</picture>
         <name>Luis Torres</name>
         <course>BSIT</course>
         <year-level>2bg1</year-level>
@@ -41,7 +41,7 @@
         <school-year>2023-2024</school-year>
     </user>
     <user>
-        <picture>profile6.jpg</picture>
+        <picture>https://i.pinimg.com/736x/fc/2b/32/fc2b32e7c26512285d7561619b037472.jpg</picture>
         <name>Elena Martinez</name>
         <course>BSCS</course>
         <year-level>4bg3</year-level>
@@ -49,7 +49,7 @@
         <school-year>2023-2024</school-year>
     </user>
     <user>
-        <picture>profile7.jpg</picture>
+        <picture>https://i.pinimg.com/736x/fc/2b/32/fc2b32e7c26512285d7561619b037472.jpg</picture>
         <name>Carlos Fernandez</name>
         <course>BSIT</course>
         <year-level>3bg2</year-level>
@@ -57,7 +57,7 @@
         <school-year>2023-2024</school-year>
     </user>
     <user>
-        <picture>profile8.jpg</picture>
+        <picture>https://i.pinimg.com/736x/fc/2b/32/fc2b32e7c26512285d7561619b037472.jpg</picture>
         <name>Sofia Rodriguez</name>
         <course>BSCS</course>
         <year-level>2bg1</year-level>
@@ -65,7 +65,7 @@
         <school-year>2023-2024</school-year>
     </user>
     <user>
-        <picture>profile9.jpg</picture>
+        <picture>https://i.pinimg.com/736x/fc/2b/32/fc2b32e7c26512285d7561619b037472.jpg</picture>
         <name>Miguel Sanchez</name>
         <course>BSIT</course>
         <year-level>4bg3</year-level>
@@ -73,7 +73,7 @@
         <school-year>2023-2024</school-year>
     </user>
     <user>
-        <picture>profile10.jpg</picture>
+        <picture>https://i.pinimg.com/736x/fc/2b/32/fc2b32e7c26512285d7561619b037472.jpg</picture>
         <name>Isabella Castro</name>
         <course>BSCS</course>
         <year-level>3bg2</year-level>
