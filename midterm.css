@@ -1,0 +1,53 @@
+/* Global Styles */
+students {
+  display: block;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Title Styles */
+title {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+subtitle {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Container for Student Cards */
+students student {
+  display: inline-block;
+  width: 200px;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+/* Image Styling */
+students student picture {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  background-color: grey; /* Placeholder if image fails to load */
+  border-radius: 50%;
+}
+
+/* Text Styling */
+students student name,
+students student course,
+students student year,
+students student adviser,
+students student schoolYear {
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+}

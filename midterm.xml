@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="midterm.css"?>
+<students>
+    <title>ABC Colleges</title>
+    <subtitle>Library Users</subtitle>
+    <student>
+        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
+        <name>Juan Dela Cruz</name>
+        <course>BSIT</course>
+        <year>3bg2</year>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
+        <name>Juan Dela Cruz</name>
+        <course>BSIT</course>
+        <year>3bg2</year>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
+        <name>Juan Dela Cruz</name>
+        <course>BSIT</course>
+        <year>3bg2</year>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
+        <name>Juan Dela Cruz</name>
+        <course>BSIT</course>
+        <year>3bg2</year>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
+        <name>Juan Dela Cruz</name>
+        <course>BSIT</course>
+        <year>3bg2</year>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
+        <name>Juan Dela Cruz</name>
+        <course>BSIT</course>
+        <year>3bg2</year>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
+        <name>Juan Dela Cruz</name>
+        <course>BSIT</course>
+        <year>3bg2</year>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
+        <name>Juan Dela Cruz</name>
+        <course>BSIT</course>
+        <year>3bg2</year>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
+        <name>Juan Dela Cruz</name>
+        <course>BSIT</course>
+        <year>3bg2</year>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
+        <name>Juan Dela Cruz</name>
+        <course>BSIT</course>
+        <year>3bg2</year>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+</students>
