@@ -40,7 +40,7 @@
         // Function to load XML and parse it
         async function loadUsers() {
             try {
-                const response = await fetch('jason_torres.xml');
+                const response = await fetch('midterm.xml');
                 const xmlText = await response.text();
                 const parser = new DOMParser();
                 const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
