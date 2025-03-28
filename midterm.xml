@@ -1,86 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="midterm.css"?>
 <students>
-    <title>ABC Colleges</title>
-    <subtitle>Library Users</subtitle>
     <student>
-        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
+        <picture>student1.jpg</picture>
         <name>Juan Dela Cruz</name>
         <course>BSIT</course>
-        <year>3bg2</year>
+        <yearLevel>3bg2</yearLevel>
         <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2025-2026</schoolYear>
+        <schoolYear>2023-2024</schoolYear>
     </student>
     <student>
-        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
-        <name>Juan Dela Cruz</name>
+        <picture>student2.jpg</picture>
+        <name>Maria Santos</name>
         <course>BSIT</course>
-        <year>3bg2</year>
+        <yearLevel>3bg2</yearLevel>
         <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2025-2026</schoolYear>
+        <schoolYear>2023-2024</schoolYear>
     </student>
     <student>
-        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
-        <name>Juan Dela Cruz</name>
+        <picture>student3.jpg</picture>
+        <name>Jose Rodriguez</name>
         <course>BSIT</course>
-        <year>3bg2</year>
+        <yearLevel>3bg2</yearLevel>
         <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2025-2026</schoolYear>
+        <schoolYear>2023-2024</schoolYear>
     </student>
     <student>
-        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
-        <name>Juan Dela Cruz</name>
+        <picture>student4.jpg</picture>
+        <name>Anna Cruz</name>
         <course>BSIT</course>
-        <year>3bg2</year>
+        <yearLevel>3bg2</yearLevel>
         <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2025-2026</schoolYear>
+        <schoolYear>2023-2024</schoolYear>
     </student>
     <student>
-        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
-        <name>Juan Dela Cruz</name>
+        <picture>student5.jpg</picture>
+        <name>Carlos Lopez</name>
         <course>BSIT</course>
-        <year>3bg2</year>
+        <yearLevel>3bg2</yearLevel>
         <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2025-2026</schoolYear>
+        <schoolYear>2023-2024</schoolYear>
     </student>
     <student>
-        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
-        <name>Juan Dela Cruz</name>
+        <picture>student6.jpg</picture>
+        <name>Elena Reyes</name>
         <course>BSIT</course>
-        <year>3bg2</year>
+        <yearLevel>3bg2</yearLevel>
         <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2025-2026</schoolYear>
+        <schoolYear>2023-2024</schoolYear>
     </student>
     <student>
-        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
-        <name>Juan Dela Cruz</name>
+        <picture>student7.jpg</picture>
+        <name>Miguel Torres</name>
         <course>BSIT</course>
-        <year>3bg2</year>
+        <yearLevel>3bg2</yearLevel>
         <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2025-2026</schoolYear>
+        <schoolYear>2023-2024</schoolYear>
     </student>
     <student>
-        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
-        <name>Juan Dela Cruz</name>
+        <picture>student8.jpg</picture>
+        <name>Sofia Garcia</name>
         <course>BSIT</course>
-        <year>3bg2</year>
+        <yearLevel>3bg2</yearLevel>
         <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2025-2026</schoolYear>
+        <schoolYear>2023-2024</schoolYear>
     </student>
     <student>
-        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
-        <name>Juan Dela Cruz</name>
+        <picture>student9.jpg</picture>
+        <name>Luis Gonzalez</name>
         <course>BSIT</course>
-        <year>3bg2</year>
+        <yearLevel>3bg2</yearLevel>
         <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2025-2026</schoolYear>
+        <schoolYear>2023-2024</schoolYear>
     </student>
     <student>
-        <picture>https://i.pinimg.com/736x/c8/1e/44/c81e44444c177844011612d2867d1840.jpg</picture>
-        <name>Juan Dela Cruz</name>
+        <picture>student10.jpg</picture>
+        <name>Isabella Martinez</name>
         <course>BSIT</course>
-        <year>3bg2</year>
+        <yearLevel>3bg2</yearLevel>
         <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2025-2026</schoolYear>
+        <schoolYear>2023-2024</schoolYear>
     </student>
 </students>
