@@ -13,28 +13,55 @@
             justify-content: center;
             gap: 10px;
             padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .page-title {
+            width: 100%;
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .user-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            width: 100%;
         }
         .user-card {
             border: 3px solid #000;
-            width: 250px;
             padding: 10px;
-            text-align: center;
+            text-align: left;
             box-sizing: border-box;
+            display: flex;
+            align-items: center;
         }
         .user-card img {
-            max-width: 100px;
-            max-height: 100px;
+            width: 100px;
+            height: 100px;
             object-fit: cover;
+            margin-right: 10px;
+        }
+        .user-details {
+            flex-grow: 1;
         }
         @media (max-width: 768px) {
-            .user-card {
-                width: 100%;
+            .user-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 480px) {
+            .user-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
 </head>
 <body>
-    <div id="users-container"></div>
+    <div class="page-title">ABC Colleges<br>Library Users</div>
+    <div id="users-container" class="user-grid">
+        <!-- User cards will be dynamically inserted here -->
+    </div>
 
     <script>
         // Function to load XML and parse it
@@ -53,11 +80,13 @@
                     
                     userCard.innerHTML = `
                         <img src="${user.getElementsByTagName('picture')[0].textContent}" alt="Profile Picture">
-                        <p><strong>Name:</strong> ${user.getElementsByTagName('name')[0].textContent}</p>
-                        <p><strong>Course:</strong> ${user.getElementsByTagName('course')[0].textContent}</p>
-                        <p><strong>Year Level:</strong> ${user.getElementsByTagName('year-level')[0].textContent}</p>
-                        <p><strong>Adviser:</strong> ${user.getElementsByTagName('adviser')[0].textContent}</p>
-                        <p><strong>School Year:</strong> ${user.getElementsByTagName('school-year')[0].textContent}</p>
+                        <div class="user-details">
+                            <p><strong>Name:</strong> ${user.getElementsByTagName('name')[0].textContent}</p>
+                            <p><strong>Course:</strong> ${user.getElementsByTagName('course')[0].textContent}</p>
+                            <p><strong>Year Level/Section:</strong> ${user.getElementsByTagName('year-level')[0].textContent}</p>
+                            <p><strong>Adviser:</strong> ${user.getElementsByTagName('adviser')[0].textContent}</p>
+                            <p><strong>School Year:</strong> ${user.getElementsByTagName('school-year')[0].textContent}</p>
+                        </div>
                     `;
 
                     container.appendChild(userCard);
