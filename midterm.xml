@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<students>
-    <student>
-        <picture>student1.jpg</picture>
+<library-users>
+    <user>
+        <picture>profile1.jpg</picture>
         <name>Juan Dela Cruz</name>
         <course>BSIT</course>
-        <yearLevel>3bg2</yearLevel>
+        <year-level>3bg2</year-level>
         <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2023-2024</schoolYear>
-    </student>
-    <student>
-        <picture>student2.jpg</picture>
+        <school-year>2023-2024</school-year>
+    </user>
+    <user>
+        <picture>profile2.jpg</picture>
         <name>Maria Santos</name>
+        <course>BSCS</course>
+        <year-level>2bg1</year-level>
+        <adviser>Ms. Elena Rodriguez</adviser>
+        <school-year>2023-2024</school-year>
+    </user>
+    <user>
+        <picture>profile3.jpg</picture>
+        <name>Pedro Gonzales</name>
         <course>BSIT</course>
-        <yearLevel>3bg2</yearLevel>
-        <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2023-2024</schoolYear>
-    </student>
-    <student>
-        <picture>student3.jpg</picture>
-        <name>Jose Rodriguez</name>
+        <year-level>4bg3</year-level>
+        <adviser>Dr. Antonio Lopez</adviser>
+        <school-year>2023-2024</school-year>
+    </user>
+    <user>
+        <picture>profile4.jpg</picture>
+        <name>Ana Reyes</name>
+        <course>BSCS</course>
+        <year-level>3bg2</year-level>
+        <adviser>Mr. Carlos Mendoza</adviser>
+        <school-year>2023-2024</school-year>
+    </user>
+    <user>
+        <picture>profile5.jpg</picture>
+        <name>Luis Torres</name>
         <course>BSIT</course>
-        <yearLevel>3bg2</yearLevel>
-        <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2023-2024</schoolYear>
-    </student>
-    <student>
-        <picture>student4.jpg</picture>
-        <name>Anna Cruz</name>
+        <year-level>2bg1</year-level>
+        <adviser>Ms. Sofia Garcia</adviser>
+        <school-year>2023-2024</school-year>
+    </user>
+    <user>
+        <picture>profile6.jpg</picture>
+        <name>Elena Martinez</name>
+        <course>BSCS</course>
+        <year-level>4bg3</year-level>
+        <adviser>Dr. Miguel Santos</adviser>
+        <school-year>2023-2024</school-year>
+    </user>
+    <user>
+        <picture>profile7.jpg</picture>
+        <name>Carlos Fernandez</name>
         <course>BSIT</course>
-        <yearLevel>3bg2</yearLevel>
-        <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2023-2024</schoolYear>
-    </student>
-    <student>
-        <picture>student5.jpg</picture>
-        <name>Carlos Lopez</name>
+        <year-level>3bg2</year-level>
+        <adviser>Mr. Jose Cruz</adviser>
+        <school-year>2023-2024</school-year>
+    </user>
+    <user>
+        <picture>profile8.jpg</picture>
+        <name>Sofia Rodriguez</name>
+        <course>BSCS</course>
+        <year-level>2bg1</year-level>
+        <adviser>Ms. Maria Lopez</adviser>
+        <school-year>2023-2024</school-year>
+    </user>
+    <user>
+        <picture>profile9.jpg</picture>
+        <name>Miguel Sanchez</name>
         <course>BSIT</course>
-        <yearLevel>3bg2</yearLevel>
-        <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2023-2024</schoolYear>
-    </student>
-    <student>
-        <picture>student6.jpg</picture>
-        <name>Elena Reyes</name>
-        <course>BSIT</course>
-        <yearLevel>3bg2</yearLevel>
-        <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2023-2024</schoolYear>
-    </student>
-    <student>
-        <picture>student7.jpg</picture>
-        <name>Miguel Torres</name>
-        <course>BSIT</course>
-        <yearLevel>3bg2</yearLevel>
-        <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2023-2024</schoolYear>
-    </student>
-    <student>
-        <picture>student8.jpg</picture>
-        <name>Sofia Garcia</name>
-        <course>BSIT</course>
-        <yearLevel>3bg2</yearLevel>
-        <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2023-2024</schoolYear>
-    </student>
-    <student>
-        <picture>student9.jpg</picture>
-        <name>Luis Gonzalez</name>
-        <course>BSIT</course>
-        <yearLevel>3bg2</yearLevel>
-        <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2023-2024</schoolYear>
-    </student>
-    <student>
-        <picture>student10.jpg</picture>
-        <name>Isabella Martinez</name>
-        <course>BSIT</course>
-        <yearLevel>3bg2</yearLevel>
-        <adviser>Mr. Ramon Dela Cruz</adviser>
-        <schoolYear>2023-2024</schoolYear>
-    </student>
-</students>
+        <year-level>4bg3</year-level>
+        <adviser>Dr. Pedro Reyes</adviser>
+        <school-year>2023-2024</school-year>
+    </user>
+    <user>
+        <picture>profile10.jpg</picture>
+        <name>Isabella Castro</name>
+        <course>BSCS</course>
+        <year-level>3bg2</year-level>
+        <adviser>Mr. Luis Gonzales</adviser>
+        <school-year>2023-2024</school-year>
+    </user>
+</library-users>
