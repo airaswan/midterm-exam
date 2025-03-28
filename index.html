@@ -79,7 +79,7 @@
                     userCard.className = 'user-card';
                     
                     userCard.innerHTML = `
-                         <img src="${imageUrl}" alt="Profile Picture" onerror="this.src='default-profile.jpg'; this.onerror=null;">
+                          <img src="${user.getElementsByTagName('picture')[0].textContent}" alt="Profile Picture">
                         <div class="user-details">
                             <p><strong>Name:</strong> ${user.getElementsByTagName('name')[0].textContent}</p>
                             <p><strong>Course:</strong> ${user.getElementsByTagName('course')[0].textContent}</p>
