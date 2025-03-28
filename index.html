@@ -3,61 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library Users</title>
-    <link rel="stylesheet" href="midterm.css">
+    <title>ABC Colleges - Library Users</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px;
+        }
+        .user-card {
+            border: 3px solid #000;
+            width: 250px;
+            padding: 10px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .user-card img {
+            max-width: 100px;
+            max-height: 100px;
+            object-fit: cover;
+        }
+        @media (max-width: 768px) {
+            .user-card {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-
-    <h1>ABC Colleges</h1>
-    <h2>Library Users</h2>
-
-    <div id="student-container"></div>
+    <div id="users-container"></div>
 
     <script>
-        // Load XML File and Process Data
-        function loadXML() {
-            let xhr = new XMLHttpRequest();
-            xhr.open("GET", "midterm.xml", true);
-            xhr.onreadystatechange = function () {
-                if (xhr.readyState === 4 && xhr.status === 200) {
-                    let xmlData = xhr.responseXML;
-                    displayStudents(xmlData);
+        // Function to load XML and parse it
+        async function loadUsers() {
+            try {
+                const response = await fetch('jason_torres.xml');
+                const xmlText = await response.text();
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+                const users = xmlDoc.getElementsByTagName('user');
+                const container = document.getElementById('users-container');
+
+                for (let user of users) {
+                    const userCard = document.createElement('div');
+                    userCard.className = 'user-card';
+                    
+                    userCard.innerHTML = `
+                        <img src="${user.getElementsByTagName('picture')[0].textContent}" alt="Profile Picture">
+                        <p><strong>Name:</strong> ${user.getElementsByTagName('name')[0].textContent}</p>
+                        <p><strong>Course:</strong> ${user.getElementsByTagName('course')[0].textContent}</p>
+                        <p><strong>Year Level:</strong> ${user.getElementsByTagName('year-level')[0].textContent}</p>
+                        <p><strong>Adviser:</strong> ${user.getElementsByTagName('adviser')[0].textContent}</p>
+                        <p><strong>School Year:</strong> ${user.getElementsByTagName('school-year')[0].textContent}</p>
+                    `;
+
+                    container.appendChild(userCard);
                 }
-            };
-            xhr.send();
-        }
-
-        function displayStudents(xml) {
-            let students = xml.getElementsByTagName("student");
-            let container = document.getElementById("student-container");
-            container.innerHTML = ""; // Clear before loading
-
-            for (let i = 0; i < students.length; i++) {
-                let picture = students[i].getElementsByTagName("picture")[0].textContent;
-                let name = students[i].getElementsByTagName("name")[0].textContent;
-                let course = students[i].getElementsByTagName("course")[0].textContent;
-                let year = students[i].getElementsByTagName("year")[0].textContent;
-                let adviser = students[i].getElementsByTagName("adviser")[0].textContent;
-                let schoolYear = students[i].getElementsByTagName("schoolYear")[0].textContent;
-
-                // Create Student Card
-                let studentCard = `
-                    <div class="student-card">
-                        <img src="${picture}" alt="Student Photo">
-                        <p><strong>${name}</strong></p>
-                        <p>${course}</p>
-                        <p>${year}</p>
-                        <p>${adviser}</p>
-                        <p>${schoolYear}</p>
-                    </div>
-                `;
-
-                container.innerHTML += studentCard;
+            } catch (error) {
+                console.error('Error loading XML:', error);
             }
         }
 
-        window.onload = loadXML; // Run when page loads
+        // Load users when page loads
+        document.addEventListener('DOMContentLoaded', loadUsers);
     </script>
-
 </body>
 </html>
