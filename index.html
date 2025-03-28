@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Users</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>ABC Colleges</h1>
+    <h2>Library Users</h2>
+
+    <div id="student-container"></div>
+
+    <script>
+        // Load XML File and Process Data
+        function loadXML() {
+            let xhr = new XMLHttpRequest();
+            xhr.open("GET", "juan_dela_cruz.xml", true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    let xmlData = xhr.responseXML;
+                    displayStudents(xmlData);
+                }
+            };
+            xhr.send();
+        }
+
+        function displayStudents(xml) {
+            let students = xml.getElementsByTagName("student");
+            let container = document.getElementById("student-container");
+            container.innerHTML = ""; // Clear before loading
+
+            for (let i = 0; i < students.length; i++) {
+                let picture = students[i].getElementsByTagName("picture")[0].textContent;
+                let name = students[i].getElementsByTagName("name")[0].textContent;
+                let course = students[i].getElementsByTagName("course")[0].textContent;
+                let year = students[i].getElementsByTagName("year")[0].textContent;
+                let adviser = students[i].getElementsByTagName("adviser")[0].textContent;
+                let schoolYear = students[i].getElementsByTagName("schoolYear")[0].textContent;
+
+                // Create Student Card
+                let studentCard = `
+                    <div class="student-card">
+                        <img src="${picture}" alt="Student Photo">
+                        <p><strong>${name}</strong></p>
+                        <p>${course}</p>
+                        <p>${year}</p>
+                        <p>${adviser}</p>
+                        <p>${schoolYear}</p>
+                    </div>
+                `;
+
+                container.innerHTML += studentCard;
+            }
+        }
+
+        window.onload = loadXML; // Run when page loads
+    </script>
+
+</body>
+</html>
